@@ -1,7 +1,8 @@
 streamlit
-numpy
+textblob
+nltk
 pdfplumber
 python-docx
-textblob
 plotly
-nltk
+fpdf
+numpy

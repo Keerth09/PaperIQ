@@ -1,4 +1,6 @@
 import streamlit as st
+import nltk
+nltk.download('punkt')
 import re
 import numpy as np
 import pdfplumber

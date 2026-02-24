@@ -6,6 +6,9 @@ import docx
 from textblob import TextBlob
 import plotly.graph_objects as go
 import heapq
+import nltk
+
+nltk.download("punkt")
 
 st.set_page_config(
     page_title="PaperIQ",

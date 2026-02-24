@@ -1,14 +1,16 @@
 import streamlit as st
-import nltk
-nltk.download('punkt')
 import re
 import numpy as np
 import pdfplumber
 import docx
-from textblob import TextBlob
 import plotly.graph_objects as go
 import heapq
-import nltk
+
+from textblob import TextBlob
+from textblob import download_corpora
+
+
+download_corpora.download_all()
 
 
 st.set_page_config(

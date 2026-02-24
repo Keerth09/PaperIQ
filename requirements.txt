@@ -4,3 +4,4 @@ pdfplumber
 python-docx
 textblob
 plotly
+nltk

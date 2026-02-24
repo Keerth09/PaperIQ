@@ -108,7 +108,7 @@ def evaluate_abstract(text):
 
     return {
         "word_count": word_count,
-        "length_status": "Good Length" if 150 <= word_count <= 250 else "Length Issue ⚠️",
+        "length_status": "Good Length" if 150 <= word_count <= 250 else "Length Issue ",
         "problem_present": keyword_check(["problem","challenge","issue","aim","objective"]),
         "method_present": keyword_check(["method","approach","proposed","model","algorithm"]),
         "result_present": keyword_check(["result","accuracy","performance","outcome"]),
@@ -251,7 +251,7 @@ if "results" in st.session_state:
   
     with tab2:
         for title,content in res["sections"].items():
-            with st.expander(f"📌 {title}"):
+            with st.expander(f" {title}"):
                 st.write(content[:1000])
 
     with tab3:

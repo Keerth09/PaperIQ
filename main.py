@@ -4,6 +4,7 @@ import numpy as np
 import pdfplumber
 import docx
 from textblob import TextBlob
+from textblob import download_corpora
 import plotly.graph_objects as go
 import heapq
 import nltk
